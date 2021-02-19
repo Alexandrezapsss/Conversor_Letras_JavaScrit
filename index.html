@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>JS_ConvertLetters</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="helpers.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="nav-brand">Conversor de Nomes</h1>
+        </nav>
+        
+        <main class="container">
+            <div>
+                <label class="label" for="component-name">Informe seu Nome</label>
+                <input type="text" class="input" placeholder="Your name" id="your-name" autocomplete="off">
+            </div>
+        
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th width="200px">Variações</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Numero de Letras</td>
+                        <td id="answer1"></td>
+                    </tr>
+                    <tr>
+                        <td>Letras Minusculas</td>
+                        <td id="answer2"></td>
+                    </tr>
+                    <tr>
+                        <td>Letras Maiusculas</td>
+                        <td id="answer3"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
